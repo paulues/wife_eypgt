@@ -1,0 +1,1116 @@
+HTML
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>이집트 & 요르단 한붓그리기 15일 여행
+가이드</title>
+<!-- Open Graph for Kakao/Social Sharing -->
+<meta property="og:title" content="이집트 & 요르단 한붓그리기 15일 여행 가이드">
+<meta property="og:description" content="작은별여행사 2026.11.20~12.04 확정 일정, 구글지도,
+준비물, 경비 계산기">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐫</text></svg>">
+<style>
+:root {
+--primary:
+#1b4332;
+--primary-light: #2d6a4f;
+--accent: #d4a373;
+--bg-color: #f8f9fa;
+--card-bg: #ffffff;
+--text-main: #212529;
+--text-muted: #6c757d;
+--border-color:
+#dee2e6;
+--font-scale: 1rem;
+}
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+"Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+background-color: var(--bg-color);
+color: var(--text-main);
+font-size: var(--font-scale);
+line-height: 1.6;
+padding-bottom:
+80px;
+}
+
+header {
+background: linear-gradient(135deg, var(--primary), var(--primary-light));
+color: white;
+padding: 20px 16px;
+text-align: center;
+box-shadow: 0
+4px 6px rgba(0,0,0,0.1);
+position: sticky;
+top: 0;
+z-index: 100;
+}
+
+.header-top {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom:
+12px;
+}
+
+.font-controller {
+display: flex;
+background: rgba(255,255,255,0.2);
+border-radius: 20px;
+padding: 2px;
+}
+
+.font-btn {
+background:
+none;
+border: none;
+color: white;
+padding: 4px 10px;
+font-size: 0.85rem;
+cursor: pointer;
+border-radius: 16px;
+}
+
+.font-btn.active {
+background:
+white;
+color: var(--primary);
+font-weight: bold;
+}
+
+h1 {
+font-size: 1.35rem;
+font-weight: 700;
+margin-bottom: 4px;
+
+}
+
+.subtitle {
+font-size: 0.9rem;
+opacity: 0.9;
+}
+
+/* Contacts Bar */
+.contacts-bar {
+background: #e9ecef;
+padding: 10px
+16px;
+display: flex;
+justify-content: space-around;
+font-size: 0.9rem;
+border-bottom: 1px solid var(--border-color);
+font-weight: 600;
+}
+
+.contacts-bar a {
+color:
+var(--primary);
+text-decoration: none;
+display: flex;
+align-items: center;
+gap: 4px;
+}
+
+/* Navigation Tabs */
+.nav-tabs {
+display: flex;
+background:
+white;
+overflow-x: auto;
+white-space: nowrap;
+border-bottom: 2px solid var(--border-color);
+padding: 0 8px;
+position: sticky;
+top: 110px;
+z-index: 90;
+box-shadow: 0 2px 4px
+rgba(0,0,0,0.05);
+}
+
+.nav-tab {
+padding: 12px 16px;
+background: none;
+border: none;
+font-size: 0.95rem;
+font-weight: 600;
+color:
+var(--text-muted);
+cursor: pointer;
+border-bottom: 3px solid transparent;
+margin-bottom: -2px;
+}
+
+.nav-tab.active {
+color: var(--primary);
+border-bottom-color: var(--primary);
+
+}
+
+/* Container & Sections */
+.container {
+max-width: 800px;
+margin: 0 auto;
+padding: 16px;
+}
+
+.section {
+display: none;
+
+}
+
+.section.active {
+display: block;
+}
+
+/* Cards */
+.card {
+background: var(--card-bg);
+border-radius: 12px;
+padding: 16px;
+
+margin-bottom: 16px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+border: 1px solid var(--border-color);
+}
+
+.card h3 {
+font-size: 1.15rem;
+color: var(--primary);
+
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+gap: 8px;
+border-bottom: 2px solid #e9ecef;
+padding-bottom: 8px;
+}
+
+/* Filters */
+.filter-buttons {
+display:
+flex;
+gap: 8px;
+margin-bottom: 16px;
+overflow-x: auto;
+padding-bottom: 4px;
+}
+
+.filter-btn {
+background: white;
+border: 1px solid
+var(--border-color);
+padding: 6px 12px;
+border-radius: 20px;
+font-size: 0.85rem;
+cursor: pointer;
+white-space: nowrap;
+}
+
+.filter-btn.active {
+background:
+var(--primary);
+color: white;
+border-color: var(--primary);
+}
+
+/* Day Card */
+.day-card {
+background: white;
+border-radius: 12px;
+margin-bottom:
+16px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+border: 1px solid var(--border-color);
+overflow: hidden;
+}
+
+.day-header {
+background: #f1f3f5;
+padding: 12px
+16px;
+font-weight: 700;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid var(--border-color);
+cursor: pointer;
+}
+
+.day-header
+.date-badge {
+background: var(--primary);
+color: white;
+padding: 2px 8px;
+border-radius: 6px;
+font-size: 0.8rem;
+}
+
+.day-body {
+padding:
+16px;
+}
+
+.route-info {
+font-weight: 600;
+color: var(--primary-light);
+margin-bottom: 8px;
+}
+
+.spot-item {
+margin: 8px 0;
+padding-left:
+12px;
+border-left: 3px solid var(--accent);
+}
+
+.meal-box {
+background: #f8f9fa;
+padding: 8px 12px;
+border-radius: 6px;
+font-size:
+0.85rem;
+margin: 10px 0;
+color: #495057;
+}
+
+.hotel-info {
+background: #e8f5e9;
+padding: 10px 12px;
+border-radius: 8px;
+font-size:
+0.9rem;
+margin-top: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+/* Buttons & Links */
+.btn-map {
+display:
+inline-flex;
+align-items: center;
+gap: 4px;
+background: #e7f5ff;
+color: #1971c2;
+padding: 4px 10px;
+border-radius: 6px;
+text-decoration: none;
+font-size:
+0.8rem;
+font-weight: 600;
+border: 1px.solid #a5d8ff;
+margin-top: 4px;
+}
+
+.btn-map:hover {
+background: #d0ebff;
+}
+
+/* Checklist */
+.checklist-item
+{
+display: flex;
+align-items: center;
+gap: 10px;
+padding: 8px 0;
+border-bottom: 1px solid #f1f3f5;
+}
+
+.checklist-item input[type="checkbox"] {
+width:
+20px;
+height: 20px;
+accent-color: var(--primary);
+cursor: pointer;
+}
+
+/* Inputs & Tables */
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top:
+10px;
+font-size: 0.9rem;
+}
+
+th, td {
+border: 1px solid var(--border-color);
+padding: 8px;
+text-align: left;
+}
+
+th {
+background:
+#f1f3f5;
+}
+
+.memo-box {
+width: 100%;
+height: 60px;
+padding: 8px;
+border: 1px solid var(--border-color);
+border-radius: 6px;
+font-size: 0.85rem;
+margin-top:
+8px;
+resize: vertical;
+}
+
+/* Warning Box */
+.warning-box {
+background: #fff3cd;
+border: 1px solid #ffeeba;
+color: #856404;
+padding: 12px;
+border-radius:
+8px;
+font-size: 0.9rem;
+margin-bottom: 12px;
+}
+
+.footer {
+text-align: center;
+padding: 20px;
+font-size: 0.85rem;
+color:
+var(--text-muted);
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="header-top">
+<h1>🇪🇬 이집트 & 요르단 한붓그리기</h1>
+<div class="font-controller">
+<button
+class="font-btn" onclick="setFontSize('small')">가-</button>
+<button class="font-btn active" onclick="setFontSize('normal')">보통</button>
+<button class="font-btn" onclick="setFontSize('large')">가+</button>
+</div>
+</div>
+<div
+class="subtitle">작은별여행사 15일 풀패키지 (2026.11.20 ~ 12.04)</div>
+</header>
+
+<div class="contacts-bar">
+<a href="tel:010-7373-4727">📞 인솔자 이다: 010-7373-4727</a>
+<a href="tel:027758788">🏢 작은별여행사:
+02-775-8788</a>
+</div>
+
+<div class="nav-tabs">
+<button class="nav-tab active" onclick="switchTab('home')">🏠 홈·요약</button>
+<button class="nav-tab" onclick="switchTab('schedule')">📅 15일
+일정</button>
+<button class="nav-tab" onclick="switchTab('maplist')">📍 지도·장소</button>
+<button class="nav-tab" onclick="switchTab('hotels')">🏨 숙소·항공</button>
+<button class="nav-tab"
+onclick="switchTab('prep')">🎒 준비·경비</button>
+<button class="nav-tab" onclick="switchTab('safety')">⚠️ 안전·주의</button>
+</div>
+
+<div class="container">
+
+<!-- HOME TAB
+-->
+<div id="home" class="section active">
+<div class="card">
+<h3>📌 여행 핵심 정보</h3>
+<p><strong>• 여행 기간:</strong> 2026년 11월 20일(금) ~ 12월 4일(금) [15일]</p>
+<p><strong>• 미팅 일시:</strong> 11월 20일(금)
+21:00</p>
+<p><strong>• 미팅 장소:</strong> 인천국제공항 제1터미널 H카운터 안쪽 벤치</p>
+<p><strong>• 현지 지불 필수경비:</strong> <strong>1인 USD 250</strong> (현지 직불금 $150 + 필수팁 \$100)</p>
+<p><strong>• 이집트 도착비자:</strong>
+<strong>USD 36</strong> (현지 공항 현금 준비)</p>
+<a href="https://maps.google.com/?q=Incheon+International+Airport+Terminal+1" target="_blank" class="btn-map">📍 인천공항 1터미널 위치 보기</a>
+</div>
+
+<div class="card">
+<h3>🚨 신신당부 (필수 준수사항)</h3>
+<div class="warning-box">
+<p>본 여행은 어른들의 우아한 품격과 배려를 바탕으로 하는 단체 장기 여행입니다.</p>
+<hr style="margin: 8px 0; border:0;
+border-top:1px solid #ffeeba;">
+<p>① 인솔자 및 가이드 폭언·위협 금지</p>
+<p>② 차량 운전석 뒷자리 양보하기</p>
+<p>③ 팀원 간 따뜻한 인사와 배려 양보</p>
+</div>
+</div>
+
+<div class="card">
+<h3>✈️ 주요 항공 스케줄</h3>
+<p><strong>11/20(금) QR859:</strong> 인천 00:20 출발 → 도하 경유 → 카이로 11:05 도착</p>
+<p><strong>11/22(일) SM060:</strong> 카이로 04:00 → 룩소르
+05:00</p>
+<p><strong>11/28(토) MS081:</strong> 아스완 05:00 → 카이로 06:25</p>
+<p><strong>11/28(토) MS701:</strong> 카이로 17:30 → 암만 19:50</p>
+<p><strong>12/03(목) QR401:</strong> 암만 20:35 → 도하 경유 →
+인천 귀국 (12/4 금요일 도착)</p>
+</div>
+</div>
+
+<!-- SCHEDULE TAB -->
+<div id="schedule" class="section">
+<div class="filter-buttons">
+<button class="filter-btn active"
+onclick="filterDays('all')">전체 일정</button>
+<button class="filter-btn" onclick="filterDays('egypt1')">이집트 1 (카이로/알렉산드리아)</button>
+<button class="filter-btn" onclick="filterDays('nile')">나일강 크루즈 (룩소르~아스완)</button>
+<button class="filter-btn"
+onclick="filterDays('jordan')">요르단 (사해/와디럼/페트라/암만)</button>
+</div>
+
+<div id="days-container">
+<!-- Dynamically generated or static day cards -->
+<div class="day-card"
+data-category="egypt1">
+<div class="day-header" onclick="toggleDay(this)">
+<span>1일차 (11/20, 금) - 인천 미팅 및 출발</span>
+<span class="date-badge">기내박</span>
+</div>
+<div
+class="day-body">
+<p class="route-info">인천 ➔ 도하(경유) ➔ 카이로</p>
+<div class="spot-item">
+<strong>21:00</strong> 인천공항 제1터미널 H카운터 안쪽 벤치 인솔자 미팅 (필수경비 USD 250 준비)
+
+<br><a href="https://maps.google.com/?q=Incheon+International+Airport+Terminal+1" target="_blank" class="btn-map">📍 인천공항 제1터미널 지도</a>
+</div>
+<div class="spot-item"><strong>00:20(+1일)</strong> QR859편
+인천 출발 (비행 10시간 30분)</div>
+<div class="meal-box">[조식:기내식 / 중식:기내식 / 석식:기내식]</div>
+<textarea class="memo-box" placeholder="나만의 메모 (예: 수하물 무게, 좌석 번호 등)"></textarea>
+</div>
+</div>
+
+<div class="day-card" data-category="egypt1">
+<div class="day-header" onclick="toggleDay(this)">
+<span>2일차 (11/21, 토) - 카이로 및 알렉산드리아</span>
+<span
+class="date-badge">알렉산드리아</span>
+</div>
+<div class="day-body">
+<p class="route-info">카이로 ➔ 알렉산드리아</p>
+<div class="spot-item">
+<strong>11:05</strong> 카이로 국제공항 도착 및 도착비자 구매 (USD
+36)
+<br><a href="https://maps.google.com/?q=Cairo+International+Airport" target="_blank" class="btn-map">📍 카이로 공항 지도</a>
+</div>
+<div class="spot-item">
+<strong>멤피스 &
+사카라 투어:</strong> 조세르 계단식 피라미드, 멤피스 야외 박물관 탐방
+<br><a href="https://maps.google.com/?q=Saqqara+Pyramid+Complex" target="_blank" class="btn-map">📍 사카라 피라미드 지도</a>
+</div>
+<div
+class="spot-item">알렉산드리아로 이동 (전용차량 약 3시간 30분)</div>
+<div class="meal-box">[조식:기내식 / 중식:현지식 / 석식:호텔식]</div>
+<div class="hotel-info">
+<span>🏨 Hilton Alexandria Corniche (★★★★★)</span>
+<a
+href="https://maps.google.com/?q=Hilton+Alexandria+Corniche" target="_blank" class="btn-map">📍 숙소 위치</a>
+</div>
+<textarea class="memo-box" placeholder="나만의 메모"></textarea>
+</div>
+
+</div>
+
+<div class="day-card" data-category="egypt1">
+<div class="day-header" onclick="toggleDay(this)">
+<span>3일차 (11/22, 일) - 알렉산드리아 투어 후 카이로 복귀</span>
+<span
+class="date-badge">카이로</span>
+</div>
+<div class="day-body">
+<p class="route-info">알렉산드리아 ➔ 카이로</p>
+<div class="spot-item">
+<strong>알렉산드리아 핵심 투어:</strong> 스탠리 브릿지(차창),
+카이트베이 요새, 알렉산드리아 도서관, 콤엘디카
+<br><a href="https://maps.google.com/?q=Bibliotheca+Alexandrina" target="_blank" class="btn-map">📍 알렉산드리아 도서관 지도</a>
+</div>
+<div class="spot-item">중식 후 카이로로 이동 (약
+3시간 30분)</div>
+<div class="meal-box">[조식:호텔식 / 중식:현지식 / 석식:호텔식]</div>
+<div class="hotel-info">
+<span>🏨 Tolip Gardens Hotel (★★★★)</span>
+<a
+href="https://maps.google.com/?q=Tolip+Gardens+Hotel+Cairo" target="_blank" class="btn-map">📍 숙소 위치</a>
+</div>
+<textarea class="memo-box" placeholder="나만의 메모"></textarea>
+</div>
+
+</div>
+
+<div class="day-card" data-category="nile">
+<div class="day-header" onclick="toggleDay(this)">
+<span>4일차 (11/23, 월) - 룩소르 이동 및 나일강 크루즈 승선</span>
+<span
+class="date-badge">나일강 크루즈</span>
+</div>
+<div class="day-body">
+<p class="route-info">카이로 ✈️ 룩소르 ➔ 크루즈</p>
+<div class="spot-item"><strong>04:00</strong> 카이로 출발 ➔
+<strong>05:00</strong> 룩소르 도착 (SM060편)</div>
+<div class="spot-item">
+<strong>덴데라 신전:</strong> 사랑의 여신 하토르 신전 탐방
+<br><a href="https://maps.google.com/?q=Dandarah+Temple" target="_blank"
+class="btn-map">📍 덴데라 신전 지도</a>
+</div>
+<div class="spot-item">
+<strong>룩소르 동안 투어:</strong> 카르낙 신전, 룩소르 신전(외관), 룩소르 마차 투어
+<br><a href="https://maps.google.com/?q=Karnak+Temple"
+target="_blank" class="btn-map">📍 카르낙 신전 지도</a>
+</div>
+<div class="spot-item"><strong>크루즈 1일차 보딩:</strong> M/S Nile Story 크루즈 체크인 및 선상 석식</div>
+<div class="meal-box">[조식:밀박스 / 중식:현지식 /
+석식:선상식]</div>
+<div class="hotel-info">
+<span>🚢 M/S Nile Story (나일강 크루즈)</span>
+<a href="https://maps.google.com/?q=Luxor+Nile+Cruise+Dock" target="_blank" class="btn-map">📍 크루즈 선착장 지도</a>
+
+</div>
+<textarea class="memo-box" placeholder="나만의 메모"></textarea>
+</div>
+</div>
+
+<div class="day-card" data-category="nile">
+<div class="day-header"
+onclick="toggleDay(this)">
+<span>5일차 (11/24, 화) - 룩소르 서안 투어 및 에스나 락 통과</span>
+<span class="date-badge">나일강 크루즈</span>
+</div>
+<div class="day-body">
+<p
+class="route-info">룩소르 ➔ 에스나 ➔ 에드푸</p>
+<div class="spot-item">
+<strong>룩소르 서안 투어:</strong> 왕가의 계곡(투탕카멘 무덤 등), 하트셉수트 장제전, 맴논의 거상
+<br><a
+href="https://maps.google.com/?q=Valley+of+the+Kings" target="_blank" class="btn-map">📍 왕가의 계곡 지도</a>
+</div>
+<div class="spot-item">나일강 수문(에스나 락) 통과 후 에드푸 이동 및 정박</div>
+<div
+class="meal-box">[조식:선상식 / 중식:선상식 / 석식:선상식]</div>
+<div class="hotel-info">
+<span>🚢 M/S Nile Story</span>
+</div>
+<textarea class="memo-box" placeholder="나만의 메모"></textarea>
+
+</div>
+</div>
+
+<div class="day-card" data-category="nile">
+<div class="day-header" onclick="toggleDay(this)">
+<span>6일차 (11/25, 수) - 에드푸 & 콤옴보 신전, 갈라비아
+파티</span>
+<span class="date-badge">나일강 크루즈</span>
+</div>
+<div class="day-body">
+<p class="route-info">에드푸 ➔ 콤옴보 ➔ 아스완</p>
+<div class="spot-item">
+
+<strong>에드푸 신전:</strong> 이집트에서 가장 보존이 잘 된 호루스 신전 탐방
+<br><a href="https://maps.google.com/?q=Temple+of+Edfu" target="_blank" class="btn-map">📍 에드푸 신전 지도</a>
+</div>
+<div
+class="spot-item">
+<strong>콤옴보 신전:</strong> 호루스와 소베크(악어) 쌍둥이 신전 탐방
+<br><a href="https://maps.google.com/?q=Kom+Ombo+Temple" target="_blank" class="btn-map">📍 콤옴보 신전 지도</a>
+</div>
+<div
+class="spot-item">선상 석식 및 갈라비아 파티 (전통의상 유료 대여 가능)</div>
+<div class="meal-box">[조식:선상식 / 중식:선상식 / 석식:선상식]</div>
+<div class="hotel-info">
+<span>🚢 M/S Nile Story</span>
+
+</div>
+<textarea class="memo-box" placeholder="나만의 메모"></textarea>
+</div>
+</div>
+
+<div class="day-card" data-category="nile">
+<div class="day-header"
+onclick="toggleDay(this)">
+<span>7일차 (11/26, 목) - 아부심벨 대신전 & 소신전 탐방</span>
+<span class="date-badge">나일강 크루즈</span>
+</div>
+<div class="day-body">
+<p
+class="route-info">아스완 ➔ 아부심벨 ➔ 아스완</p>
+<div class="spot-item">이른 새벽 밀박스 수령 후 아부심벨로 이동 (전용차량 약 3시간 30분)</div>
+<div class="spot-item">
+<strong>아부심벨 투어:</strong> 람세스 2세 대신전 및 네페르타리
+소신전 탐방
+<br><a href="https://maps.google.com/?q=Abu+Simbel+Temples" target="_blank" class="btn-map">📍 아부심벨 지도</a>
+</div>
+<div class="spot-item">아스완 복귀 후 크루즈 휴식 및 선상 석식</div>
+<div
+class="meal-box">[조식:밀박스 / 중식:선상식 / 석식:선상식]</div>
+<div class="hotel-info">
+<span>🚢 M/S Nile Story</span>
+</div>
+<textarea class="memo-box" placeholder="나만의 메모"></textarea>
+
+</div>
+</div>
+
+<div class="day-card" data-category="nile">
+<div class="day-header" onclick="toggleDay(this)">
+<span>8일차 (11/27, 금) - 아스완 하이댐, 필레신전, 누비안
+마을</span>
+<span class="date-badge">아스완/카이로</span>
+</div>
+<div class="day-body">
+<p class="route-info">아스완 ➔ 카이로</p>
+<div class="spot-item">크루즈 하선 후 아스완 하이댐, 미완성 오벨리스크
+관광</div>
+<div class="spot-item">
+<strong>필레신전:</strong> 모터보트를 타고 이동하여 탐방
+<br><a href="https://maps.google.com/?q=Philae+Temple" target="_blank" class="btn-map">📍 필레신전
+지도</a>
+</div>
+<div class="spot-item">나일강 펠루카 체험 및 누비안 마을 탐방 후 카이로로 이동 투숙</div>
+<div class="meal-box">[조식:선상식 / 중식:현지식 / 석식:호텔식]</div>
+<div class="hotel-info">
+
+<span>🏨 Marriott Zamalek Hotel Cairo</span>
+<br><a href="https://maps.google.com/?q=Cairo+Marriott+Hotel" target="_blank" class="btn-map">📍 숙소 위치</a>
+</div>
+<textarea class="memo-box" placeholder="나만의
+메모"></textarea>
+</div>
+</div>
+
+<div class="day-card" data-category="egypt1">
+<div class="day-header" onclick="toggleDay(this)">
+<span>9일차 (11/28, 토) - 대이집트박물관, 기자 피라미드
+➔ 요르단 암만</span>
+<span class="date-badge">요르단 암만</span>
+</div>
+<div class="day-body">
+<p class="route-info">카이로 ✈️ 암만 ➔ 사해</p>
+<div class="spot-item">
+<strong>이집트
+대박물관(GEM):</strong> 세계 최대 규모 고고학 박물관 관람 (약 4시간)
+<br><a href="https://maps.google.com/?q=Grand+Egyptian+Museum" target="_blank" class="btn-map">📍 대이집트박물관 지도</a>
+</div>
+<div
+class="spot-item">
+<strong>기자 피라미드 + 스핑크스 투어 (외부):</strong> 내부 입장은 선택(약 $40 실비, 유격훈련 수준으로 비추천)
+<br><a href="https://maps.google.com/?q=Giza+Necropolis" target="_blank" class="btn-map">📍 기자 피라미드
+지도</a>
+</div>
+<div class="spot-item"><strong>17:30</strong> 카이로 출발 MS701편 ➔ <strong>19:50</strong> 요르단 암만 도착 (단체 비자 입국)</div>
+<div class="spot-item">사해로 이동 (약 1시간 소요)</div>
+<div
+class="meal-box">[조식:밀박스 / 중식:현지식 / 석식:기내식]</div>
+<div class="hotel-info">
+<span>🏨 Holiday Inn Resort Dead Sea (★★★★★)</span>
+<a href="https://maps.google.com/?q=Holiday+Inn+Resort+Dead+Sea"
+target="_blank" class="btn-map">📍 숙소 위치</a>
+</div>
+<textarea class="memo-box" placeholder="나만의 메모"></textarea>
+</div>
+</div>
+
+<div class="day-card"
+data-category="jordan">
+<div class="day-header" onclick="toggleDay(this)">
+<span>10일차 (11/29, 일) - 사해 자유수영 & 와디럼 사막 이동</span>
+<span class="date-badge">와디럼</span>
+
+</div>
+<div class="day-body">
+<p class="route-info">사해 ➔ 와디럼</p>
+<div class="spot-item">
+<strong>사해 자유수영 및 머드 체험:</strong> 고염분으로 인해 입수 시간 15~20분 권장, 상처 시 주의, 운동화 착용
+권장
+<br><a href="https://maps.google.com/?q=Dead+Sea" target="_blank" class="btn-map">📍 사해 위치</a>
+</div>
+<div class="spot-item">중식 후 와디럼으로 이동 (전용차량 약 6시간)</div>
+<div
+class="spot-item">
+<strong>와디럼 캠프 체크인 및 석식 (즈릅 Zarb):</strong> 베두인 전통 지하 바비큐 특식 체험
+<br><a href="https://maps.google.com/?q=Rum+Oasis+Luxury+Camp" target="_blank" class="btn-map">📍 와디럼 캠프 지도</a>
+
+</div>
+<div class="meal-box">[조식:호텔식 / 중식:현지 뷔페식 / 석식:캠프식(즈릅)]</div>
+<div class="hotel-info">
+<span>⛺ Rum Oasis Luxury Camp</span>
+</div>
+<textarea class="memo-box"
+placeholder="나만의 메모"></textarea>
+</div>
+</div>
+
+<div class="day-card" data-category="jordan">
+<div class="day-header" onclick="toggleDay(this)">
+<span>11일차 (11/30, 월) -
+와디럼 지프 투어 ➔ 페트라 이동</span>
+<span class="date-badge">페트라</span>
+</div>
+<div class="day-body">
+<p class="route-info">와디럼 ➔ 페트라</p>
+<div class="spot-item">
+
+<strong>와디럼 지프 투어:</strong> 영화 '아라비아 로렌스' 배경 사막 질주 (6인 1조, 약 2시간, 마스크 준비)
+<br><a href="https://maps.google.com/?q=Wadi+Rum+Protected+Area" target="_blank" class="btn-map">📍 와디럼 보호구역 지도</a>
+
+</div>
+<div class="spot-item">캠프 중식 후 페트라로 이동 및 호텔 체크인/석식</div>
+<div class="meal-box">[조식:캠프식 / 중식:캠프식 / 석식:호텔식]</div>
+<div class="hotel-info">
+<span>🏨 Hayat Zaman
+Petra</span>
+<a href="https://maps.google.com/?q=Hayat+Zaman+Hotel+Petra" target="_blank" class="btn-map">📍 숙소 위치</a>
+</div>
+<textarea class="memo-box" placeholder="나만의 메모"></textarea>
+
+</div>
+</div>
+
+<div class="day-card" data-category="jordan">
+<div class="day-header" onclick="toggleDay(this)">
+<span>12일차 (12/1, 화) - 페트라 바이 나이트 투어</span>
+<span
+class="date-badge">페트라</span>
+</div>
+<div class="day-body">
+<p class="route-info">페트라 일대</p>
+<div class="spot-item">오전 자유휴식 또는 주변 여유 일정</div>
+<div
+class="spot-item">
+<strong>페트라 바이 나이트 투어 (야간):</strong> 촛불 길을 따라 알 카즈나까지 도보 이동 (편도 약 40분, 핸드폰 플래시 금지)
+<br><a href="https://maps.google.com/?q=Al-Khazneh+Petra" target="_blank" class="btn-map">📍
+알 카즈나 지도</a>
+</div>
+<div class="meal-box">[조식:호텔식 / 중식:자유식 / 석식:호텔식]</div>
+<div class="hotel-info">
+<span>🏨 Hayat Zaman Petra</span>
+</div>
+<textarea class="memo-box"
+placeholder="나만의 메모"></textarea>
+</div>
+</div>
+
+<div class="day-card" data-category="jordan">
+<div class="day-header" onclick="toggleDay(this)">
+<span>13일차 (12/2, 수) -
+페트라 투어 & 쇼박 성 ➔ 암만</span>
+<span class="date-badge">암만</span>
+</div>
+<div class="day-body">
+<p class="route-info">페트라 ➔ 쇼박 성 ➔ 암만</p>
+<div class="spot-item">
+
+<strong>페트라 주간 투어 (왕복 약 4시간):</strong> 시크(Siq), 알 카즈나(보물창고), 원형극장, 왕가의 무덤, 열주거리 탐방
+<br><a href="https://maps.google.com/?q=Petra+Treasury" target="_blank" class="btn-map">📍 페트라 트레저리 지도</a>
+
+</div>
+<div class="spot-item">
+<strong>쇼박 성 투어:</strong> 1115년 십자군 왕 볼드윈 1세가 세운 황금요새 탐방
+<br><a href="https://maps.google.com/?q=Shobak+Castle" target="_blank" class="btn-map">📍
+쇼박 성 지도</a>
+</div>
+<div class="spot-item">암만으로 이동 후 호텔 체크인 및 석식</div>
+<div class="meal-box">[조식:호텔식 / 중식:한식 / 석식:호텔식]</div>
+<div class="hotel-info">
+<span>🏨 Opal Hotel Amman
+(★★★★)</span>
+<a href="https://maps.google.com/?q=Opal+Hotel+Amman" target="_blank" class="btn-map">📍 숙소 위치</a>
+</div>
+<textarea class="memo-box" placeholder="나만의 메모"></textarea>
+
+</div>
+</div>
+
+<div class="day-card" data-category="jordan">
+<div class="day-header" onclick="toggleDay(this)">
+<span>14일차 (12/3, 목) - 제라쉬 유적지, 암만 시티투어 ➔ 공항
+출국</span>
+<span class="date-badge">기내박</span>
+</div>
+<div class="day-body">
+<p class="route-info">암만 ➔ 제라쉬 ➔ 암만공항 ➔ 도하</p>
+<div class="spot-item">
+
+<strong>제라쉬 유적지:</strong> 하드리아누스 개선문, 히포드롬, 열주식 광장, 원형 극장 탐방
+<br><a href="https://maps.google.com/?q=Jerash+Ruins" target="_blank" class="btn-map">📍 제라쉬 유적지 지도</a>
+</div>
+<div
+class="spot-item">
+<strong>암만 시티투어:</strong> 암만 성채(시타델), 블루모스크(차창) 탐방
+<br><a href="https://maps.google.com/?q=Amman+Citadel" target="_blank" class="btn-map">📍 암만 성채 지도</a>
+
+</div>
+<div class="spot-item"><strong>20:35</strong> 암만 공항 출발 QR401편 (도하 경유)</div>
+<div class="meal-box">[조식:호텔식 / 중식:현지식 / 석식:기내식]</div>
+<textarea class="memo-box" placeholder="나만의
+메모"></textarea>
+</div>
+</div>
+
+<div class="day-card" data-category="jordan">
+<div class="day-header" onclick="toggleDay(this)">
+<span>15일차 (12/4, 금) - 도하 경유 인천
+귀국</span>
+<span class="date-badge">인천 도착</span>
+</div>
+<div class="day-body">
+<p class="route-info">도하 ✈️ 인천 국제공항</p>
+<div class="spot-item"><strong>02:40</strong> 도하 출발 QR858편
+(비행 8시간 35분)</div>
+<div class="spot-item">
+<strong>17:15</strong> 인천 국제공항 제1터미널 도착 및 해산 (소중한 인연 감사합니다!)
+<br><a href="https://maps.google.com/?q=Incheon+International+Airport" target="_blank"
+class="btn-map">📍 인천공항 위치</a>
+</div>
+<div class="meal-box">[조식:기내식 / 중식:기내식 / 석식:-]</div>
+<textarea class="memo-box" placeholder="나만의 메모"></textarea>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- MAP & PLACES LIST TAB -->
+<div id="maplist" class="section">
+<div class="card">
+<h3>📍 주요 방문장소 및 구글지도 바로가기</h3>
+<p
+style="margin-bottom: 12px; font-size: 0.9rem; color: #555;">지역별 주요 관광지, 공항, 숙소를 구글지도 앱이나 웹에서 바로 열어 위치를 확인하세요.</p>
+
+<h4 style="color:var(--primary); margin-top:12px;">1. 카이로 및 알렉산드리아</h4>
+<ul
+style="list-style: none; padding-left: 0; margin-top: 6px;">
+<li style="margin-bottom: 8px;"><a href="https://maps.google.com/?q=Cairo+International+Airport" target="_blank" class="btn-map">📍 카이로 국제공항</a></li>
+<li
+style="margin-bottom: 8px;"><a href="https://maps.google.com/?q=Saqqara+Pyramid+Complex" target="_blank" class="btn-map">📍 사카라 계단식 피라미드</a></li>
+<li style="margin-bottom: 8px;"><a
+href="https://maps.google.com/?q=Bibliotheca+Alexandrina" target="_blank" class="btn-map">📍 알렉산드리아 도서관</a></li>
+<li style="margin-bottom: 8px;"><a href="https://maps.google.com/?q=Grand+Egyptian+Museum"
+target="_blank" class="btn-map">📍 이집트 대박물관(GEM)</a></li>
+<li style="margin-bottom: 8px;"><a href="https://maps.google.com/?q=Giza+Necropolis" target="_blank" class="btn-map">📍 기자 피라미드 &
+스핑크스</a></li>
+</ul>
+
+<h4 style="color:var(--primary); margin-top:16px;">2. 룩소르, 크루즈 및 아스완</h4>
+<ul style="list-style: none; padding-left: 0; margin-top: 6px;">
+<li
+style="margin-bottom: 8px;"><a href="https://maps.google.com/?q=Karnak+Temple" target="_blank" class="btn-map">📍 카르낙 신전</a></li>
+<li style="margin-bottom: 8px;"><a
+href="https://maps.google.com/?q=Valley+of+the+Kings" target="_blank" class="btn-map">📍 왕가의 계곡</a></li>
+<li style="margin-bottom: 8px;"><a href="https://maps.google.com/?q=Temple+of+Edfu" target="_blank" class="btn-map">📍
+에드푸 호루스 신전</a></li>
+<li style="margin-bottom: 8px;"><a href="https://maps.google.com/?q=Kom+Ombo+Temple" target="_blank" class="btn-map">📍 콤옴보 신전</a></li>
+<li style="margin-bottom: 8px;"><a
+href="https://maps.google.com/?q=Abu+Simbel+Temples" target="_blank" class="btn-map">📍 아부심벨 신전</a></li>
+<li style="margin-bottom: 8px;"><a href="https://maps.google.com/?q=Philae+Temple" target="_blank" class="btn-map">📍
+필레 신전</a></li>
+</ul>
+
+<h4 style="color:var(--primary); margin-top:16px;">3. 요르단 (사해, 와디럼, 페트라, 암만)</h4>
+<ul style="list-style: none; padding-left: 0; margin-top: 6px;">
+<li
+style="margin-bottom: 8px;"><a href="https://maps.google.com/?q=Dead+Sea" target="_blank" class="btn-map">📍 사해 지역</a></li>
+<li style="margin-bottom: 8px;"><a href="https://maps.google.com/?q=Wadi+Rum+Protected+Area"
+target="_blank" class="btn-map">📍 와디럼 사막</a></li>
+<li style="margin-bottom: 8px;"><a href="https://maps.google.com/?q=Al-Khazneh+Petra" target="_blank" class="btn-map">📍 페트라 알 카즈나(보물창고)</a></li>
+<li
+style="margin-bottom: 8px;"><a href="https://maps.google.com/?q=Shobak+Castle" target="_blank" class="btn-map">📍 쇼박 성</a></li>
+<li style="margin-bottom: 8px;"><a href="https://maps.google.com/?q=Jerash+Ruins"
+target="_blank" class="btn-map">📍 제라쉬 유적지</a></li>
+<li style="margin-bottom: 8px;"><a href="https://maps.google.com/?q=Amman+Citadel" target="_blank" class="btn-map">📍 암만 성채 (시타델)</a></li>
+</ul>
+
+</div>
+</div>
+
+<!-- HOTELS & FLIGHTS TAB -->
+<div id="hotels" class="section">
+<div class="card">
+<h3>🏨 전 일정 확정 숙소 목록</h3>
+<p><strong>1. 알렉산드리아:</strong> Hilton Alexandria
+Corniche (★★★★★) <a href="https://maps.google.com/?q=Hilton+Alexandria+Corniche" target="_blank" class="btn-map">📍 지도</a></p>
+<p><strong>2. 카이로(초기):</strong> Tolip Gardens Hotel (★★★★) <a
+href="https://maps.google.com/?q=Tolip+Gardens+Hotel+Cairo" target="_blank" class="btn-map">📍 지도</a></p>
+<p><strong>3~7일차:</strong> M/S Nile Story 나일강 크루즈 (★★★★★) <a
+href="https://maps.google.com/?q=Luxor+Nile+Cruise+Dock" target="_blank" class="btn-map">📍 지도</a></p>
+<p><strong>8일차 아스완:</strong> Basma Hotel <a href="https://maps.google.com/?q=Basma+Hotel+Aswan" target="_blank" class="btn-map">📍
+지도</a></p>
+<p><strong>8일차 카이로:</strong> Marriott Zamalek Hotel Cairo <a href="https://maps.google.com/?q=Cairo+Marriott+Hotel" target="_blank" class="btn-map">📍 지도</a></p>
+<p><strong>9일차 사해:</strong> Holiday Inn Resort
+Dead Sea (★★★★★) <a href="https://maps.google.com/?q=Holiday+Inn+Resort+Dead+Sea" target="_blank" class="btn-map">📍 지도</a></p>
+<p><strong>10일차 와디럼:</strong> Rum Oasis Luxury Camp <a
+href="https://maps.google.com/?q=Rum+Oasis+Luxury+Camp" target="_blank" class="btn-map">📍 지도</a></p>
+<p><strong>11~12일차 페트라:</strong> Hayat Zaman Petra <a href="https://maps.google.com/?q=Hayat+Zaman+Hotel+Petra"
+target="_blank" class="btn-map">📍 지도</a></p>
+<p><strong>13일차 암만:</strong> Opal Hotel Amman (★★★★) <a href="https://maps.google.com/?q=Opal+Hotel+Amman" target="_blank" class="btn-map">📍 지도</a></p>
+
+</div>
+
+<div class="card">
+<h3>🚢 크루즈 이용 안내</h3>
+<p>• <strong>선상 결제 시스템:</strong> 한국 찜질방 시스템과 유사합니다. 객실 키로 음료/주류 주문 후 체크아웃 시 일괄 결제 (신용카드 가능)</p>
+<p>•
+<strong>캐리어 서비스:</strong> 승·하선 시 직원들이 캐리어를 이동해 드립니다. 성함이 적힌 네임택 부착 필수</p>
+</div>
+</div>
+
+<!-- PREP & BUDGET TAB -->
+<div id="prep" class="section">
+<div
+class="card">
+<h3>🎒 준비물 체크리스트</h3>
+<div id="checklist-container">
+<div class="checklist-item"><input type="checkbox" id="c1"><label for="c1">여권 (유효기간 6개월 이상
+잔여)</label></div>
+<div class="checklist-item"><input type="checkbox" id="c2"><label for="c2">달러 현금 (비자비 USD 36, 필수경비 USD 250, 매너팁 등)</label></div>
+<div class="checklist-item"><input type="checkbox"
+id="c3"><label for="c3">사해 수영용 수영복 또는 래쉬가드</label></div>
+<div class="checklist-item"><input type="checkbox" id="c4"><label for="c4">사해 자갈길 대비 편한 운동화 (슬리퍼·크록스 비추천)</label></div>
+<div
+class="checklist-item"><input type="checkbox" id="c5"><label for="c5">와디럼 사막 바람막이 및 모래바람 대비 마스크</label></div>
+<div class="checklist-item"><input type="checkbox" id="c6"><label for="c6">페트라 트레킹용 편한 신발 및
+생수통</label></div>
+<div class="checklist-item"><input type="checkbox" id="c7"><label for="c7">개인 상비약 (소화제, 지사제, 감기약, 반창고 등)</label></div>
+<div class="checklist-item"><input type="checkbox" id="c8"><label
+for="c8">이어폰 (이집트 일정 수신기 대여용 개별 지참)</label></div>
+</div>
+</div>
+
+<div class="card">
+<h3>💰 현지 경비 계산기</h3>
+<p style="font-size: 0.85rem; color: #666; margin-bottom: 8px;">환율 기준: 1
+USD = 1,400원 가정</p>
+<table>
+<tr>
+<th>항목</th>
+<th>금액 (USD)</th>
+<th>예상 원화 (KRW)</th>
+</tr>
+<tr>
+<td>이집트 도착비자</td>
+<td>USD
+36</td>
+<td>약 50,400원</td>
+</tr>
+<tr>
+<td>현지 직불금 (필수경비)</td>
+<td>USD 150</td>
+<td>약 210,000원</td>
+</tr>
+<tr>
+
+<td>필수 팁 (크루즈/가이드/기사)</td>
+<td>USD 100</td>
+<td>약 140,000원</td>
+</tr>
+<tr>
+<td><strong>합계 (필수 지출)</strong></td>
+<td><strong>USD
+286</strong></td>
+<td><strong>약 400,400원</strong></td>
+</tr>
+<tr>
+<td>개인 생활경비·매너팁 (권장)</td>
+<td>USD 200+</td>
+<td>약 280,000원+</td>
+
+</tr>
+</table>
+</div>
+</div>
+
+<!-- SAFETY & GUIDELINES TAB -->
+<div id="safety" class="section">
+<div class="card">
+<h3>⚠️ 특수지역 여행 주의사항 및
+안전수칙</h3>
+<div class="warning-box">
+<p><strong>1. 암만공항 입국 주의:</strong> 요르단 입국 시 단체 비자로 진행됩니다. 인솔자 안내에 따라 줄을 서주세요. 이민국 경찰에게 여권 반납 전에는 화장실 사용을 자제해 주세요.</p>
+</div>
+<div
+class="warning-box">
+<p><strong>2. 전자기기 반입 주의:</strong> 요르단 입국 시 손전등 및 망원경은 별도 시큐리티 체크로 시간이 오래 걸리므로 꼭 필요하지 않다면 지참하지 않는 것이 좋습니다.</p>
+</div>
+<div class="warning-box">
+<p><strong>3. 사해 수영
+주의사항:</strong> 염분이 매우 높아 15~20분 입국이 적당하며, 상처가 있다면 입수를 권장하지 않습니다. 해변이 자갈이므로 반드시 운동화를 착용하세요.</p>
+</div>
+<div class="warning-box">
+<p><strong>4. 페트라 바이 나이트:</strong> 촛불 길 야간 투어 시
+어두우므로 발밑을 주의하시고, 페트라 방침상 핸드폰 플래시 사용은 엄격히 제재되므로 삼가해 주세요.</p>
+</div>
+<p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 12px;">
+※ 본 여행은 특수지역 인프라가 제한된 지역을 포함하므로 인솔자 및 현지 가이드의 안전
+수칙 안내를 반드시 준수해 주시기 바랍니다.
+</p>
+</div>
+</div>
+
+</div>
+
+<div class="footer">
+<p>ⓒ 2026 작은별여행사 & 우미경님 맞춤 여행 가이드</p>
+</div>
+
+<script>
+// Tab Switching
+function switchTab(tabId) {
+document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
+
+document.querySelectorAll('.nav-tab').forEach(tab => tab.classList.remove('active'));
+
+document.getElementById(tabId).classList.add('active');
+event.currentTarget.classList.add('active');
+
+window.scrollTo(0, 0);
+}
+
+// Font Size Control
+function setFontSize(size) {
+document.querySelectorAll('.font-btn').forEach(btn => btn.classList.remove('active'));
+
+event.currentTarget.classList.add('active');
+
+let scale = '1rem';
+if (size === 'small') scale = '0.9rem';
+if (size === 'large') scale = '1.1rem';
+document.documentElement.style.setProperty('--font-scale', scale);
+}
+
+// Day Accordion Toggle
+function toggleDay(header) {
+const body = header.nextElementSibling;
+body.style.display = body.style.display === 'none' ? 'block' : 'none';
+}
+
+// Day Filtering
+function filterDays(category) {
+document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+event.currentTarget.classList.add('active');
+
+document.querySelectorAll('.day-card').forEach(card => {
+if (category === 'all' || card.dataset.category === category) {
+card.style.display = 'block';
+} else {
+
+card.style.display = 'none';
+}
+});
+}
+</script>
+</body>
+</html>
